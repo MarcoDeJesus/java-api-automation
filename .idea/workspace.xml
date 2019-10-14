@@ -36,7 +36,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.BoardTest.ValidateBoardName">
+    <configuration name="BoardTest.ValidateBoardName" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationTrello" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BoardTest" />
+      <option name="METHOD_NAME" value="ValidateBoardName" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BoardTest.ValidateOKResponseByID" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationTrello" />
       <option name="PACKAGE_NAME" value="" />
@@ -51,6 +63,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.BoardTest.ValidateBoardName" />
         <item itemvalue="TestNG.BoardTest.ValidateOKResponseByID" />
       </list>
     </recent_temporary>

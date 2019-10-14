@@ -21,5 +21,6 @@ public class BoardTest {
     @Test
     public void ValidateBoardName(){
         Board boardModel = given().when().get("https://api.trello.com/1/boards/"+ BOARD_IDENTIFIER +"?key="+ APP_KEY +"&token="+ AUTH_TOKEN).as(Board.class);
+        assertThat(boardModel.getName()).containsIgnoringCase("VAcation");
     }
 }
