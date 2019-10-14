@@ -17,4 +17,9 @@ public class BoardTest {
                 .then()
                 .statusCode(200);
     }
+
+    @Test
+    public void ValidateBoardName(){
+        Board boardModel = given().when().get("https://api.trello.com/1/boards/"+ BOARD_IDENTIFIER +"?key="+ APP_KEY +"&token="+ AUTH_TOKEN).as(Board.class);
+    }
 }
