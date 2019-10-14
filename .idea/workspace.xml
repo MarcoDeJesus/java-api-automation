@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23aeaae5-e6b1-46e9-81ac-3dd81d200e8d" name="Default Changelist" comment="" />
+    <list default="true" id="23aeaae5-e6b1-46e9-81ac-3dd81d200e8d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/BoardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BoardTest.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
